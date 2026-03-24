@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Échiquier du Nord — Club d'échecs à La Réunion</title>
+    <meta name="description" content="Club d'échecs L'Échiquier du Nord à Sainte-Clotilde, La Réunion. Cours, tournois et événements pour tous les niveaux depuis 1993.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">♞ <span>Échiquier du Nord</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#accueil" class="active">Accueil</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#cours">Cours</a></li>
+                    <li><a href="#tournois">Tournois</a></li>
+                    <li><a href="evenements/">Événements</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="burger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="accueil">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="https://videos.pexels.com/video-files/6689571/6689571-uhd_2560_1440_25fps.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <h1>Bienvenue à l'Échiquier du Nord</h1>
+            <p>Rejoignez notre passion pour les échecs depuis 1993</p>
+            <a href="mailto:contact@echiquierdunord.re?subject=Demande d'adhésion" class="btn btn-primary">J'adhère</a>
+            <a href="#a-propos" class="btn btn-outline" style="margin-left: 10px;">En savoir plus</a>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section id="a-propos">
+        <div class="container">
+            <h2 class="section-title">À propos du club</h2>
+            <p class="section-subtitle">Depuis 1993, nous partageons la passion des échecs à La Réunion</p>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>L'Échiquier du Nord est un club d'échecs basé à Sainte-Clotilde, La Réunion. Fondé en 1993, le club propose des événements, des rencontres, des tournois et des cours hebdomadaires pour tous les niveaux.</p>
+                    <p>Que vous soyez débutant ou joueur confirmé, notre club vous accueille dans une ambiance conviviale pour progresser et partager votre passion du jeu.</p>
+                    <p>Nos animateurs diplômés encadrent les séances d'initiation, de perfectionnement et de préparation à la compétition.</p>
+                </div>
+                <div class="about-img">
+                    <img src="images/site/collegiens.jpg" alt="Membres du club L'Échiquier du Nord">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cours -->
+    <section id="cours">
+        <div class="container">
+            <h2 class="section-title">Nos cours</h2>
+            <p class="section-subtitle">Tous les passionnés d'échecs, débutants ou confirmés — aucune inscription préalable</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/site/visite-natacha.jpg" alt="Cours d'initiation">
+                    <div class="card-body">
+                        <h3>Initiation</h3>
+                        <p>Apprenez les bases du jeu d'échecs. Pour les débutants de tous âges.</p>
+                        <p class="card-schedule">Mercredi et samedi · 14h — 15h</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/site/collegiens.jpg" alt="Cours de compétition">
+                    <div class="card-body">
+                        <h3>Compétition</h3>
+                        <p>Entraînement avancé pour les joueurs réguliers et ambitieux.</p>
+                        <p class="card-schedule">Mercredi et samedi · 15h — 16h<br>Samedi · 16h — 17h</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/site/fete-du-jeu.jpg" alt="Cours ambition">
+                    <div class="card-body">
+                        <h3>Ambition</h3>
+                        <p>Perfectionnement et préparation aux championnats pour les joueurs les plus motivés.</p>
+                    </div>
+                </div>
+            </div>
+            <p style="text-align:center; margin-top:30px; color:var(--gray-700);">
+                📍 Salle les Pluies d'Or — 54 rue Méziaire de Guignard, 97490 Sainte-Clotilde
+            </p>
+        </div>
+    </section>
+
+    <!-- Tournois -->
+    <section id="tournois">
+        <div class="container">
+            <h2 class="section-title">Tournois</h2>
+            <p class="section-subtitle">Découvrez nos compétitions passionnantes depuis 1993</p>
+            <div class="cards" style="grid-template-columns: repeat(2, 1fr);">
+                <div class="card">
+                    <img src="images/site/tournoi-pentecote.jpg" alt="Open International 2026">
+                    <div class="card-body">
+                        <h3>Open International 2026</h3>
+                        <p>Notre tournoi phare, ouvert à tous les niveaux.</p>
+                        <p class="card-schedule">10 au 17 janvier 2026</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/site/photo-groupe.jpg" alt="Qualifications Championnat de France">
+                    <div class="card-body">
+                        <h3>Championnat de France</h3>
+                        <p>Qualifications et préparation pour la finale nationale.</p>
+                        <p class="card-schedule"><a href="evenements/qualification-championnat-de-france.html">Voir les qualifiés</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie -->
+    <section id="galerie">
+        <div class="container">
+            <h2 class="section-title">Galerie</h2>
+            <p class="section-subtitle">Moments forts du club en images</p>
+            <div class="gallery-grid">
+                <img src="images/site/fete-du-jeu.jpg" alt="Fête du jeu 2024">
+                <img src="images/site/collegiens.jpg" alt="Animation collégiens CINOR">
+                <img src="images/site/tournoi-pentecote.jpg" alt="Tournoi de la Pentecôte">
+                <img src="images/site/photo-groupe.jpg" alt="Photo de groupe du club">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-subtitle">Pour toute question sur nos événements et cours</p>
+            <div class="contact-info">
+                <p>📍 Salle les Pluies d'Or — 54 rue Méziaire de Guignard, 97490 Sainte-Clotilde</p>
+                <p>
+                    <a href="mailto:contact@echiquierdunord.re" class="email-link">contact@echiquierdunord.re</a>
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/echiquierdunord.re" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p><strong>Échiquier du Nord</strong></p>
+            <p>Salle les Pluies d'Or — 54 rue Méziaire de Guignard, 97490 Sainte-Clotilde</p>
+            <p><a href="mailto:contact@echiquierdunord.re">contact@echiquierdunord.re</a></p>
+            <p class="copyright">&copy; 2026 Échiquier du Nord.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <img src="" alt="Image agrandie">
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
